@@ -1,13 +1,15 @@
 import HeroSection from "./modules/1-Hero-Section"
 import About from "./modules/2-About-Spect"
+import SpectVerse from "./modules/3-Spect-Verse"
 
 
 function App() {
 
   return (
-    <div className="h-screen bg-black text-white">
+    <div className="flex flex-col bg-black text-white w-full">
       <HeroSection />
-      <About/>
+      <About />
+      <SpectVerse />
     </div>
   )
 }
