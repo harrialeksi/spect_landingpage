@@ -92,7 +92,7 @@ export default function Organize() {
                   bg-zinc-800
                   hover:bg-opacity-10
                   hover:bg-purple
-                  rounded-2xl}"
+                  rounded-2xl"
                 >
                   {tag}
                 </p>
