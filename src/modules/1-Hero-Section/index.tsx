@@ -9,9 +9,7 @@ const GradientWord = styled.span`
 `;
 
 const PinkBlur = styled.div`
-  filter: blur(100px);
-  // height: 150px;
-  // width: 150px;
+  filter: blur(120px);
   border-radius: 100px;
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);
 `;
@@ -31,14 +29,14 @@ function HeroSection() {
       <VioletBlur className="absolute top-0 left-0 blur-xl" />
       <PinkBlur className="absolute right-0 top-60 h-1/6 w-1/6" />
       <PinkBlur className="absolute bottom-36 left-72 h-24 w-24" />
-      <div className="mt-36 mx-auto text-6xl font-bold text-center flex flex-col items-center transition-transform">
+      <div className="mt-36 mx-auto text-6xl font-bold text-center flex flex-col items-center">
         <div className="flex flex-col py-4 mb-10 leading-normal">
           <p>
             Buidl the world of <GradientWord>Web3</GradientWord>
           </p>
           <p>With Spect</p>
         </div>
-        <img src="/earth.svg" className="lg:w-[60%]" />
+        <img src="/earth.svg" className="lg:w-[50%]" />
         <div className="absolute bottom-0 bg-gradient-to-t from-black to h-24 w-full z-60" />
       </div>
     </div>

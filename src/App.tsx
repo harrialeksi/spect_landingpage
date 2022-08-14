@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="flex flex-col bg-black text-white w-full font-default">
       <HeroSection />
-      <About />
+      {/* <About /> */}
       <SpectVerse />
     </div>
   )
