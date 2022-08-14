@@ -8,13 +8,13 @@ const GradientWord = styled.span`
   -webkit-background-clip: text;
 `;
 
-const PinkBlur = styled.div`
+export const PinkBlur = styled.div`
   filter: blur(120px);
   border-radius: 100px;
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);
 `;
 
-const VioletBlur = styled.div`
+export const VioletBlur = styled.div`
   filter: blur(150px);
   height: 200px;
   width: 200px;

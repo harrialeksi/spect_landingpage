@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
-const TaskCard = styled.div`
+export const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 3rem;
+  padding: 3rem 0rem;
+  position: relative;
   span {
     background: linear-gradient(180deg, #4200ff 0%, #ffffff 100%);
     -webkit-text-fill-color: transparent;
@@ -16,7 +18,7 @@ const TaskCard = styled.div`
 export default function Integrations() {
   return (
     <>
-      <TaskCard>
+      <Container>
         <div className="flex flex-row mb-8">
           <p className="text-3xl font-semibold">
             Integrate like a <span>Pro</span>
@@ -38,7 +40,7 @@ export default function Integrations() {
             <img src="/orca.svg" className="h-8" />
           </div>
         </div>
-      </TaskCard>
+      </Container>
     </>
   );
 }

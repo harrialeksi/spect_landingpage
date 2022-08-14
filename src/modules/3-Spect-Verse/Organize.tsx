@@ -45,6 +45,7 @@ const TaskCard = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 3rem;
+  padding: 3rem 0rem;
   .gradient-text {
     background: linear-gradient(180deg, #5200ff 0%, #a900ff 100%);
     -webkit-text-fill-color: transparent;
