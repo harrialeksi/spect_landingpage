@@ -1,16 +1,9 @@
+import Spline from "@splinetool/react-spline";
+
 function About() {
   return (
-    <div className="flex flex-row h-screen">
-      <div className="w-[50%]">
-
-      </div>
-      <div className="flex mx-auto">
-        <h1 className="text-white text-3xl font-bold text-center p-16">
-          Reimagine Tasks
-          <br />
-          reimagine bounties
-        </h1>
-      </div>
+    <div className="h-4/5">
+      <Spline scene="https://prod.spline.design/2L7YzB5qogcw4qrD/scene.splinecode" />
     </div>
   );
 }
