@@ -6,7 +6,7 @@ import SpectVerse from "./modules/3-Spect-Verse"
 function App() {
 
   return (
-    <div className="flex flex-col bg-black text-white w-full">
+    <div className="flex flex-col bg-black text-white w-full font-default">
       <HeroSection />
       <About />
       <SpectVerse />

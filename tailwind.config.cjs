@@ -7,6 +7,9 @@ module.exports = {
         black: "#141414",
         purple: "#BF5AF2",
       },
+      fontFamily:{
+        default: ['Inter', 'sans-serif']
+      }
     },
   },
   plugins: [],
