@@ -9,15 +9,15 @@ export default function Navbar() {
         <button
           className="
         lg:mr-36
-        px-4
-        py-2
+        px-8
+        py-3
         rounded-xl
         text-md
         text-purple
         text-bold
         bg-purple
-        bg-opacity-10
-        hover:bg-opacity-20
+        bg-opacity-5
+        hover:bg-opacity-25
         duration-700"
         >
           Launch App

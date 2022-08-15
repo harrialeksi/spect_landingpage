@@ -2,6 +2,8 @@ import HeroSection from "./modules/1-Hero-Section"
 import About from "./modules/2-About-Spect"
 import SpectVerse from "./modules/3-Spect-Verse"
 import Features from "./modules/4-Features"
+import ReachOut from "./modules/5-ReachOut"
+import Footer from "./modules/Footer"
 
 
 function App() {
@@ -9,9 +11,11 @@ function App() {
   return (
     <div className="flex flex-col bg-black text-white w-full font-default">
       <HeroSection />
-      {/* <About /> */}
+      <About />
       <SpectVerse />
       <Features />
+      <ReachOut />
+      <Footer />
     </div>
   )
 }
