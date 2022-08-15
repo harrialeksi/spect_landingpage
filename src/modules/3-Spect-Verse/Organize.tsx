@@ -58,11 +58,11 @@ export default function Organize() {
     <>
       <TaskCard>
         <div className="flex flex-row mb-8">
-          <p className="text-3xl font-semibold">
+          <p className="text-4xl font-semibold">
             Organize <span className="gradient-text">Tasks, Bounties </span>{" "}
           </p>
         </div>
-        <div className="text-zinc-400 text-center items-center w-[70%]">
+        <div className="text-zinc-400 text-center my-12 items-center w-[70%]">
           Create Tasks, Bounties & organize them the way you want. Classify the
           gigs using tags, status, card type, applications, deadline and much
           more.
@@ -71,7 +71,7 @@ export default function Organize() {
           <div className="text-2xl mb-10">
             <Typewriter
               options={{
-                strings: ["Create an ERC-20 Token Like Matic"],
+                strings: ["Design an NFT Marketplace"],
                 autoStart: true,
                 loop: true,
               }}

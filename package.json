@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@splinetool/react-spline": "^2.2.1",
     "@splinetool/runtime": "^0.9.94",
     "@types/styled-components": "^5.1.26",
