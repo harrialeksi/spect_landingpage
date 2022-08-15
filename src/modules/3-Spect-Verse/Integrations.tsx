@@ -19,12 +19,12 @@ export default function Integrations() {
   return (
     <>
       <Container>
-        <div className="flex flex-row mb-8">
+        <div className="flex flex-row mb-16">
           <p className="text-4xl font-semibold">
             Integrate like a <span>Pro</span>
           </p>
         </div>
-        <div className="text-zinc-400 text-center my-12 items-center w-[70%]">
+        <div className="text-zinc-400 text-center items-center w-[70%]">
           Pay out contributors using Gnosis Safe. Track your code via GitHub.
           Seamlessly integrate with Discord, Orca & Coordinape as well.
         </div>

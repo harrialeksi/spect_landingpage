@@ -11,6 +11,7 @@ const SpectCard = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   box-shadow: black 0px 10px 25px;
+  width: 35rem;
 `;
 
 const rolesArray = ["steward", "member", "contributor", "visitor"];
@@ -20,8 +21,8 @@ export default function Customize() {
   return (
     <>
       <Container>
-        <div className="flex flex-row mb-8">
-          <p className="text-5xl font-semibold leading-normal">
+        <div className="flex flex-row mb-8 text-center">
+          <p className="text-4xl font-semibold leading-normal">
             Customize
             <br />
             <p className="text-2xl text-zinc-500 text-center">
@@ -33,7 +34,7 @@ export default function Customize() {
           Spect offers huge customizability in terms of task management,
           payments, user interface.
         </div>
-        <SpectCard className="w-full">
+        <SpectCard>
           <p className=" text-2xl text-zinc-300 mb-4">Invite</p>
           <div>
             <p className="text-md text-zinc-400">
@@ -53,9 +54,15 @@ export default function Customize() {
               })}
             </div>
             <div className="flex flex-row gap-4 items-center text-xl text-zinc-400 mt-4 mb-3">
-              Customize Invite <SettingOutlined style={{fontSize: "1rem"}}/>{" "}
+              Customize Invite{" "}
+              <SettingOutlined
+                style={{ fontSize: "1rem" }}
+                className="animate-bounce"
+              />
             </div>
-            <button className="text-md w-full bg-purple bg-opacity-10 text-purple rounded-xl px-6 py-3">Generate invite</button>
+            <button className="text-md w-full bg-purple bg-opacity-10 hover:bg-opacity-20 text-purple rounded-xl px-6 py-3">
+              Generate invite
+            </button>
           </div>
         </SpectCard>
       </Container>
