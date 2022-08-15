@@ -1,6 +1,7 @@
 import HeroSection from "./modules/1-Hero-Section"
 import About from "./modules/2-About-Spect"
 import SpectVerse from "./modules/3-Spect-Verse"
+import Features from "./modules/4-Features"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       {/* <About /> */}
       <SpectVerse />
+      <Features />
     </div>
   )
 }

@@ -1,11 +1,9 @@
 import { Container } from "./Integrations";
-import { VioletBlur } from "../1-Hero-Section";
 
 export default function Automation() {
   return (
     <>
       <Container>
-        <VioletBlur className="absolute left-12 top-36" />
         <div className="flex flex-row mb-8">
           <p className="text-4xl font-semibold">Automate the flow</p>
         </div>

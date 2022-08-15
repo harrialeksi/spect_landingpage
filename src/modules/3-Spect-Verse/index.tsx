@@ -16,10 +16,10 @@ function SpectVerse() {
       <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientOne">
         <Retro />
       </div>
-      <div className="lg:col-span-2 md:col-span-2 sm:col-span-2 bg-gradientTwo">
+      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo">
         <Customize />
       </div>
-      <div className="lg:col-span-2 md:col-span-2 sm:col-span-2 bg-[#0E0E0E]">
+      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-[#0E0E0E]">
         <Automation />
       </div>
     </div>

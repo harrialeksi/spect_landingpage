@@ -15,7 +15,6 @@ const SpectCard = styled.div`
 `;
 
 const rolesArray = ["steward", "member", "contributor", "visitor"];
-const tokenArray = ["DAI", "MATIC"];
 
 export default function Customize() {
   return (
