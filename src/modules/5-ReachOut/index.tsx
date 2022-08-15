@@ -27,16 +27,16 @@ export default function ReachOut() {
             <p className="text-4xl mb-8 p-4 text-center">
               Time to check out Spect !
             </p>
-            <p className="text-zinc-500 w-[20rem] text-center">
+            <p className="text-zinc-500 w-3/5 text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
               consequuntur quaerat. Excepturi, odit!
             </p>
             <a href="https://circles.spect.network/">
-              <button className="text-md mt-12 w-[10rem] bg-purple bg-opacity-10 hover:bg-opacity-20 text-purple rounded-xl px-6 py-3 duration-700">
+              <button className="text-md mt-12 w-full bg-purple bg-opacity-10 hover:bg-opacity-20 text-purple rounded-xl px-6 py-3 duration-700">
                 Launch App
               </button>
             </a>
-            <p className="text-zinc-500 w-[20rem] text-center mt-8">
+            <p className="text-zinc-500 w-3/5 text-center mt-8">
               How about a 1-1 demo ? Ping us in our discord server
             </p>
           </div>

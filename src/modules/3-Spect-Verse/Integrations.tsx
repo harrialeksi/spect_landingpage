@@ -20,7 +20,7 @@ export default function Integrations() {
     <>
       <Container>
         <div className="flex flex-row mb-16">
-          <p className="text-4xl font-semibold">
+          <p className="text-4xl font-semibold leading-normal text-center">
             Integrate like a <span>Pro</span>
           </p>
         </div>
@@ -29,12 +29,12 @@ export default function Integrations() {
           Seamlessly integrate with Discord, Orca & Coordinape as well.
         </div>
         <div className="mt-12 flex flex-col items-center gap-5">
-          <div className="flex flex-row gap-14 items-center">
+          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-4 justify-between items-center">
             <img src="/github.svg" className="h-16" />
             <img src="/coordinape.svg" className="h-8" />
             <img src="/guild.svg" className="h-12" />
           </div>
-          <div className="flex flex-row gap-14 items-center">
+          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-4 justify-between items-center">
             <img src="/gnosis.svg" className="h-8" />
             <img src="/discord.svg" className="h-16" />
             <img src="/orca.svg" className="h-8" />

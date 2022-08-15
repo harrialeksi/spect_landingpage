@@ -11,7 +11,6 @@ const SpectCard = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   box-shadow: black 0px 10px 25px;
-  width: 35rem;
 `;
 
 const rolesArray = ["steward", "member", "contributor", "visitor"];
@@ -33,21 +32,21 @@ export default function Customize() {
           Spect offers huge customizability in terms of task management,
           payments, user interface.
         </div>
-        <SpectCard>
+        <SpectCard className="sm:max-w-[25rem]">
           <p className=" text-2xl text-zinc-300 mb-4">Invite</p>
           <div>
             <p className="text-md text-zinc-400">
               Invite peers to join the circle
             </p>
             <p className=" text-xl text-zinc-400 mt-4">Choose Role</p>
-            <div className="flex flex-row gap-3 mt-3">
-              {rolesArray.map((chain) => {
+            <div className="flex flex-row gap-3 mt-3 flex-wrap">
+              {rolesArray.map((role) => {
                 return (
                   <div
-                    key={chain}
+                    key={role}
                     className="text-sm bg-purple bg-opacity-10 text-purple rounded-2xl px-3 py-1"
                   >
-                    {chain}
+                    {role}
                   </div>
                 );
               })}

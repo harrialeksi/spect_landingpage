@@ -24,7 +24,6 @@ const SpectCard = styled.div`
   min-height: 4rem;
   display: flex;
   flex-direction: column;
-  width: 35rem;
   flex-wrap: wrap;
   box-shadow: black 0px 10px 25px;
   position: relative;
@@ -58,11 +57,11 @@ export default function Organize() {
     <>
       <TaskCard>
         <div className="flex flex-row mb-8">
-          <p className="text-4xl font-semibold">
+          <p className="text-4xl font-semibold leading-normal text-center">
             Organize <span className="gradient-text">Tasks, Bounties </span>{" "}
           </p>
         </div>
-        <div className="text-zinc-400 text-center my-4 items-center w-[30rem]">
+        <div className="text-zinc-400 text-center my-4 items-center w-4/5">
           Create Tasks, Bounties & organize them the way you want. Classify the
           gigs using tags, status, card type, applications, deadline and much
           more.

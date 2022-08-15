@@ -8,7 +8,7 @@ const Card = styled.div`
 export default function Features() {
   return (
     <div className="h-full bg-zinc-900 p-4">
-      <p className="text-5xl text-center font-semibold my-20">
+      <p className="text-5xl text-center font-semibold my-20 leading-normal">
         For the buidlers, By the buidlers
       </p>
       <div className="h-full grid grid-cols-2 gap-4 m-3 px-4">
