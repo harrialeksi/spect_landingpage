@@ -1,11 +1,9 @@
-import { VioletBlur } from "../1-Hero-Section";
 import { Container } from "./Integrations";
 
 export default function Retro() {
   return (
     <>
       <Container>
-        <VioletBlur className="absolute left-12 top-12" />
         <div className="flex flex-row mb-16">
           <p className="text-4xl font-semibold">Retro it</p>
         </div>

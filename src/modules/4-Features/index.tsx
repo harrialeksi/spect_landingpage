@@ -34,7 +34,7 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="h-full bg-zinc-900 p-4">
+    <div className="h-full bg-[#1B1B1B] p-4">
       <p className="text-5xl text-center font-semibold my-20 leading-normal">
         For the buidlers, By the buidlers
       </p>

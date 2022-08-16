@@ -10,10 +10,10 @@ function SpectVerse() {
       <div className="lg:col-span-2 md:col-span-2 sm:col-span-2 bg-gradientTwo">
         <Organize />
       </div>
-      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientOne">
+      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-[#0E0E0E]">
         <Integrations />
       </div>
-      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientOne">
+      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo">
         <Retro />
       </div>
       <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo">
