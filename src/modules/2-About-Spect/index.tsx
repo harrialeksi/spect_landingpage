@@ -1,5 +1,3 @@
-import Spline from "@splinetool/react-spline";
-
 function About() {
   return (
     <div className="bg-[#1B1B1B] h-full grid grid-cols-3 gap-4 p-12">

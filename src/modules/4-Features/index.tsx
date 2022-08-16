@@ -41,7 +41,7 @@ export default function Features() {
       <div className="h-full grid grid-cols-2 gap-4 m-3 px-4">
         {features.map((feature) => {
           return (
-            <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 p-8 lg:mx-20">
+            <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 p-8 lg:mx-20" key={feature.title}>
               <Card className="w-full bg-gradientTwo rounded-2xl p-8 flex flex-col gap-4 items-center text-center">
                 {feature.icon == "Mac" && (
                   <MacCommandOutlined
