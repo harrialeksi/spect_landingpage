@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className="bg-[#1B1B1B] h-full grid grid-cols-3 gap-4 p-12">
-      <div className="lg:col-span-2 md:col-span-3 sm:hidden">
+      <div className="lg:col-span-2 md:hidden sm:hidden">
         <img src="/screen.svg" />
       </div>
       <div className="lg:col-span-1 md:col-span-3 sm:col-span-3 p-4 my-6">
