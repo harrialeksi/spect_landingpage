@@ -22,6 +22,7 @@ const SpectCard = styled.div`
     transition-duration: 0.7s;
   }
   min-height: 4rem;
+  max-width: 30rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
