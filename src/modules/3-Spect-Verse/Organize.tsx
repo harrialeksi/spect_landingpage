@@ -62,7 +62,7 @@ export default function Organize() {
             Organize <span className="gradient-text">Tasks, Bounties </span>{" "}
           </p>
         </div>
-        <div className="text-zinc-400 text-center my-4 items-center w-4/5">
+        <div className="text-zinc-400 text-center my-4 items-center sm:w-4/5 md:w-4/5 lg:w-2/5">
           Create Tasks, Bounties & organize them the way you want. Classify the
           gigs using tags, status, card type, applications, deadline and much
           more.
