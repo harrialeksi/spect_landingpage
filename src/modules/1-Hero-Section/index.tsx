@@ -30,18 +30,17 @@ function HeroSection() {
       <VioletBlur className="absolute top-0 left-0 blur-xl" />
       <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
       <PinkBlur className="absolute bottom-36 left-72 h-24 w-24" />
-      <div className="mt-24 flex flex-col text-center items-center">
+      <div className="mt-12 flex flex-col text-center items-center">
         <div className="flex flex-col mx-auto py-4 mb-10 ">
           <p className="leading-normal text-6xl font-bold ">
             Buidl the world of <GradientWord>Web3</GradientWord>
             <br />
             With Spect
           </p>
-          <p className="text-center lg:w-2/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
+          <p className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             placeat voluptate vel blanditiis recusandae illo laboriosam
-            perspiciatis! Tempora veritatis itaque, optio dicta et consequuntur
-            illo corporis perferendis natus, magni id.
+            perspiciatis!
           </p>
         </div>
 

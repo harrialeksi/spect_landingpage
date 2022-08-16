@@ -14,7 +14,7 @@ export default function Retro() {
           chain with any token. You can even plug in your native DAO token!
         </div>
         <div className="mt-12 flex flex-row items-center">
-          <img src="/crypto.svg" className="sm:h-72 md:h-48 lg:h-48" />
+          <img src="/crypto.svg" className="h-48" />
         </div>
       </Container>
     </>

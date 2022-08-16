@@ -8,10 +8,11 @@ export default function Automation() {
           <p className="text-4xl font-semibold">Automate the flow</p>
         </div>
         <div className="text-zinc-400 text-center items-center w-[70%]">
-          Lorem Epsum
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet
+          laborum corrupti est ex provident rerum sunt! 
         </div>
         <div>
-          <img src="/automate.svg" className="h-[25rem]"/>
+          <img src="/automate.svg" className="h-[25rem]" />
         </div>
       </Container>
     </>
