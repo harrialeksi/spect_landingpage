@@ -56,7 +56,7 @@ export default function Footer() {
       </div>
       <VioletBlur className="absolute bottom-0 left-0" />
       <PinkBlur className="absolute bottom-36 right-0 h-48 w-48 opacity-75" />
-      <div className="text-xl text-zinc-300 flex flex-row flex-wrap justify-center gap-8 my-10">
+      <div className="text-xl text-zinc-300 flex flex-row flex-wrap justify-center gap-8 my-10 z-20">
         <a href="https://twitter.com/joinSpect">
           <p className="hover:text-purple">Twitter</p>
         </a>
