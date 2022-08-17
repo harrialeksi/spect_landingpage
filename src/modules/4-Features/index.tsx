@@ -1,72 +1,53 @@
 import styled from "styled-components";
-import { MacCommandOutlined } from "@ant-design/icons";
+import { ApartmentOutlined } from "@ant-design/icons";
 
 const Card = styled.div`
   box-shadow: 0px 10px 15px black;
+  height: 17rem;
 `;
 
 const features = [
   {
-    icon: "Mac",
-    title: "Keyboard Friendly",
+    icon: "ApartmentOutlined",
+    title: "Modular",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturquis velit perferendis temporibus aliquam explicabo",
+      "Every sub-DAO on Spect is immensely powerful. Sub-DAOs can go as deep or as wide as you desire",
   },
   {
-    icon: "Moon",
-    title: "Dark-Light Mode",
+    icon: "Credentialing",
+    title: "Credentialing",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturquis velit perferendis temporibus aliquam explicabo",
-  },
-  {
-    icon: "Chain",
-    title: "On-chain Credentialing",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturquis velit perferendis temporibus aliquam explicabo",
+      "Contributors on Spect can build their credentials as they contribute to DAOs. These credentials can be used by contributors anywhere permissionlessly",
   },
   {
     icon: "Support",
     title: "24x7 Support",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturquis velit perferendis temporibus aliquam explicabo",
+      "Our team is based in various timezones which allows us to provide support 24x7",
   },
 ];
 
 export default function Features() {
   return (
     <div className="h-full bg-[#1B1B1B] p-4">
-      <p className="text-5xl text-center font-semibold my-20 leading-normal">
+      <p className="text-5xl text-center font-semibold p-4 my-20 leading-normal">
         For the buidlers, By the buidlers
       </p>
-      <div className="h-full grid grid-cols-2 gap-4 m-3 px-4">
+      <div className="h-full grid grid-cols-3 gap-4 m-3 px-4">
         {features.map((feature) => {
           return (
-            <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 p-8 lg:mx-20" key={feature.title}>
+            <div
+              className="lg:col-span-1 md:col-span-3 sm:col-span-3 p-8 lg:mx-2"
+              key={feature.title}
+            >
               <Card className="w-full bg-gradientTwo rounded-2xl p-8 flex flex-col gap-4 items-center text-center">
-                {feature.icon == "Mac" && (
-                  <MacCommandOutlined
+                {feature.icon == "ApartmentOutlined" && (
+                  <ApartmentOutlined
                     style={{ fontSize: "2.5rem" }}
                     className="opacity-70"
                   />
                 )}
-                {feature.icon == "Moon" && (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    height={"2.5rem"}
-                    opacity="0.7"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                    />
-                  </svg>
-                )}
-                {feature.icon == "Chain" && (
+                {feature.icon == "Credentialing" && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

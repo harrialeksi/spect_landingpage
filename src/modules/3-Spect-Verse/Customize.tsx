@@ -29,8 +29,8 @@ export default function Customize() {
           </p>
         </div>
         <div className="text-zinc-400 text-center items-center mb-10 w-[70%]">
-          Spect offers huge customizability in terms of task management,
-          payments, user interface.
+          Spect offers huge customizability in terms of task workflows,
+          payments, roles and automations.
         </div>
         <SpectCard className="sm:max-w-[25rem]">
           <p className=" text-2xl text-zinc-300 mb-4">Invite</p>

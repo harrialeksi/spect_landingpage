@@ -59,7 +59,7 @@ export default function Organize() {
       <TaskCard>
         <div className="flex flex-row mb-8">
           <p className="text-4xl font-semibold leading-normal text-center">
-            Organize <span className="gradient-text">Tasks, Bounties </span>{" "}
+            Organize <span className="gradient-text">Tasks, Bounties </span> and more !
           </p>
         </div>
         <div className="text-zinc-400 text-center my-4 items-center sm:w-4/5 md:w-4/5 lg:w-2/5">

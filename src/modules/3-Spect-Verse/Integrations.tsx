@@ -29,18 +29,21 @@ export default function Integrations() {
           Seamlessly integrate with Discord, Orca & Coordinape as well.
         </div>
         <div className="mt-12 flex flex-col items-center gap-5">
-          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-4 justify-between items-center">
+          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-12 justify-between items-center">
             <img src="/github.svg" className="h-16" />
-            <img src="/coordinape.svg" className="h-8" />
-            <img src="/guild.svg" className="h-12" />
+            <img src="/discord.svg" className="h-16" />
           </div>
           <div className="flex lg:flex-row md:flex-row sm:flex-col gap-4 justify-between items-center">
             <img src="/gnosis.svg" className="h-8" />
-            <img src="/discord.svg" className="h-16" />
-            <img src="/orca.svg" className="h-8" />
+            <img src="/orca.svg" className="h-32" />
           </div>
         </div>
       </Container>
     </>
   );
+}
+
+{
+  /* <img src="/coordinape.svg" className="h-8" />
+      <img src="/guild.svg" className="h-12" /> */
 }

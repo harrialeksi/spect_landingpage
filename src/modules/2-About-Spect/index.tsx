@@ -5,14 +5,13 @@ function About() {
         <img src="/screen.svg" />
       </div>
       <div className="lg:col-span-1 md:col-span-3 sm:col-span-3 p-4 my-6">
-        <p className="text-5xl font-semibold mt-8 leading-normal lg:text-left sm:text-center md:text-center">
-          Interface, <br /> tailored for <br /> Web3
+        <p className="text-5xl font-bold sm:mt-8 md:mt-8 lg:mt-24 leading-normal lg:text-left sm:text-center md:text-center">
+          An experience that delights
         </p>
-        <p className="lg:text-left sm:text-center md:text-center text-zinc-600  mt-6 lg:w-4/5">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, odio
-          perferendis dolor adipisci modi iusto esse ut id, eligendi placeat non
-          quas blanditiis velit distinctio ab, voluptatum fugiat tempore!
-          Eligendi!
+        <p className="lg:text-left sm:text-center md:text-center text-zinc-500  mt-6 lg:w-4/5">
+          Happy contributors build successful DAOs. We’re building an experience
+          that makes it possible to operate a DAO with the least amount of
+          stress.
         </p>
       </div>
     </div>

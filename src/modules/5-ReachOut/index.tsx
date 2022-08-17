@@ -1,12 +1,8 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-  background: linear-gradient(
-    253.34deg,
-    rgba(51, 0, 134, 0.244) 0%,
-    rgba(127, 0, 171, 0.16) 97.76%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  border: solid 2px rgba(255, 255, 255, 0.06);
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
@@ -24,21 +20,17 @@ export default function ReachOut() {
       <div className="m-8 mx-auto items-center relative">
         <Card>
           <div className="flex flex-col items-center">
-            <p className="text-4xl mb-8 p-4 text-center">
-              Time to check out Spect !
+            <p className="text-4xl mb-8 p-4 text-center leading-normal">
+              Are you ready to take your DAO to the next level?
             </p>
             <p className="text-zinc-500 w-3/5 text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              consequuntur quaerat. Excepturi, odit!
+              Have questions? Ping us in our discord server
             </p>
             <a href="https://circles.spect.network/">
               <button className="text-md mt-12 w-full bg-purple bg-opacity-10 hover:bg-opacity-20 text-purple rounded-xl px-6 py-3 duration-700">
                 Launch App
               </button>
             </a>
-            <p className="text-zinc-500 w-3/5 text-center mt-8">
-              How about a 1-1 demo ? Ping us in our discord server
-            </p>
           </div>
         </Card>
       </div>
