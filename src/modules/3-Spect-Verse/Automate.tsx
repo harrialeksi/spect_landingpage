@@ -11,7 +11,7 @@ export default function Automation() {
           Dont spend a single minute doing repititive tasks.
         </div>
         <div>
-          <img src="/automate.svg" className="h-[25rem]" />
+          <img src="/automate.svg" className="h-[20rem] mt-4" />
         </div>
       </Container>
     </>
