@@ -26,7 +26,7 @@ export default function Integrations() {
         </div>
         <div className="text-zinc-400 text-center items-center w-[70%]">
           Pay out contributors using Gnosis Safe. Track your code via GitHub.
-          Seamlessly integrate with Discord, Orca & Coordinape as well.
+          Seamlessly integrate with Discord to enhance communication, fetch roles & much more.
         </div>
         <div className="mt-12 flex flex-col items-center gap-5">
           <div className="flex flex-col gap-8 justify-between items-center">

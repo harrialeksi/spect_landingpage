@@ -5,26 +5,16 @@ export default function Navbar() {
         <img src="/logo.svg" className="h-10" />
         <p className="font-semibold text-xl">Spect Network</p>
       </div>
-      <a href="https://circles.spect.network/">
-        <button
-          className="
-        lg:mr-36
-        px-8
-        py-3
-        rounded-xl
-        text-md
-        text-purple
-        text-bold
-        bg-purple
-        bg-opacity-5
-        hover:bg-opacity-25
-        duration-700
-        sm:hidden
-        md:hidden"
-        >
-          Launch App
-        </button>
-      </a>
+      <div className="flex flex-row items-center gap-2 sm:hidden md:hidden lg:mr-36">
+        <a href="https://docs.spect.network/spect-docs/introduction/master">
+          <button className="px-8 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">Docs</button>
+        </a>
+        <a href="https://circles.spect.network/">
+          <button className="px-8 py-3 rounded-xl text-md text-purple text-bold bg-purple bg-opacity-5 hover:bg-opacity-25 duration-700">
+            Launch App
+          </button>
+        </a>
+      </div>
     </div>
   );
 }

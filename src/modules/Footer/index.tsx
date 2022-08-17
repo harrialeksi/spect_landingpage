@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className="h-full flex flex-col bg-black justify-center m-12 items-center relative">
       <div className="flex flex-col items-center my-8">
-        <p className="p-8 w-[35rem] text-center md:leading-normal sm:leading-normal lg:leading-tight lg:text-5xl md:text-4xl sm:text-4xl font-bold">
+        <p className="p-8 lg:w-[35rem] text-center md:leading-normal sm:leading-normal lg:leading-normal lg:text-5xl md:text-4xl sm:text-4xl font-bold">
           Are you ready to take your <GradientWord>DAO </GradientWord>to the
           next level?
         </p>
@@ -76,32 +76,9 @@ export default function Footer() {
           <p className="hover:text-purple">Snapshot</p>
         </a>
       </div>
+      <div>
+        <img src="/footer.svg" className="h-16" />
+      </div>
     </div>
   );
 }
-
-// const Card = styled.div`
-//   background: rgba(255, 255, 255, 0.03);
-//   border: solid 2px rgba(255, 255, 255, 0.06);
-//   border-radius: 1rem;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-around;
-//   align-items: center;
-//   margin: 3rem;
-//   padding: 3rem 0rem;
-//   width: 70vw;
-//   z-index: 2;
-// `;
-
-// export default function ReachOut() {
-//   return (
-//     <div className="h-full flex">
-//       <div className="m-8 mx-auto items-center relative">
-//         <Card>
-//
-//         </Card>
-//       </div>
-//     </div>
-//   );
-// }

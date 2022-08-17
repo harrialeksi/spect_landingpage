@@ -3,7 +3,7 @@ import { ApartmentOutlined } from "@ant-design/icons";
 
 const Card = styled.div`
   box-shadow: 0px 10px 15px black;
-  height: 17rem;
+  min-height: 18rem;
 `;
 
 const features = [

@@ -54,7 +54,7 @@ function HeroSection() {
               text-bold
               bg-white
               bg-opacity-5
-              hover:bg-opacity-25
+              hover:bg-opacity-10
               hover:text-white
               duration-700"
             >
