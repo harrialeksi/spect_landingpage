@@ -30,14 +30,14 @@ function HeroSection() {
       <PinkBlur className="absolute bottom-36 left-72 h-24 w-24 z-10" />
       <div className="lg:mt-24 md:mt-12 sm:mt-12 flex flex-col text-center items-center z-20">
         <div className="flex flex-col mx-auto py-4 mb-10 ">
-          <p className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-6xl md:text-5xl sm:text-5xl font-bold z-30">
+          <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-6xl md:text-5xl sm:text-5xl font-bold z-30">
             Built for <GradientWord>DAOs</GradientWord> <br /> that change the
             world
-          </p>
-          <p className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
+          </h1>
+          <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
             Spect is a highly customizable tool for modular DAOs to operate,
             scale and achieve beautiful things.
-          </p>
+          </h2>
         </div>
 
         <div className="mb-12 flex flex-row gap-6">

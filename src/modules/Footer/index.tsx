@@ -11,10 +11,10 @@ export default function Footer() {
   return (
     <div className="h-full flex flex-col bg-black justify-center m-12 items-center relative">
       <div className="flex flex-col items-center my-8">
-        <p className="p-8 lg:w-[35rem] text-center md:leading-normal sm:leading-normal lg:leading-normal lg:text-5xl md:text-4xl sm:text-4xl font-bold">
+        <h1 className="p-8 lg:w-[35rem] text-center md:leading-normal sm:leading-normal lg:leading-normal lg:text-5xl md:text-4xl sm:text-4xl font-bold">
           Are you ready to take your <GradientWord>DAO </GradientWord>to the
           next level?
-        </p>
+        </h1>
         <div className="mb-12 flex flex-row gap-6">
           <a href="https://docs.spect.network/spect-docs/introduction/master">
             <button
