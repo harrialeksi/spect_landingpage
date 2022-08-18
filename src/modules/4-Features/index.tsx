@@ -44,7 +44,7 @@ export default function Features() {
                 {feature.icon == "ApartmentOutlined" && (
                   <ApartmentOutlined
                     style={{ fontSize: "2.5rem" }}
-                    className="opacity-70"
+                    className="opacity-70 hover:opacity-90 duration-700"
                   />
                 )}
                 {feature.icon == "Credentialing" && (
@@ -55,7 +55,7 @@ export default function Features() {
                     stroke="currentColor"
                     stroke-width="2"
                     height={"2.5rem"}
-                    opacity="0.7"
+                    className="opacity-70 hover:opacity-90 duration-700"
                   >
                     <path
                       stroke-linecap="round"
@@ -72,7 +72,7 @@ export default function Features() {
                     stroke="currentColor"
                     stroke-width="2"
                     height={"2.5rem"}
-                    opacity="0.7"
+                    className="opacity-70 hover:opacity-90 duration-700"
                   >
                     <path
                       stroke-linecap="round"

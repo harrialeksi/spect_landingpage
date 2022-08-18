@@ -59,13 +59,14 @@ export default function Organize() {
       <TaskCard>
         <div className="flex flex-row mb-8">
           <p className="text-4xl font-semibold leading-normal text-center">
-            Organize <span className="gradient-text">Tasks, Bounties </span> and more !
+            Organize <span className="gradient-text">Tasks, Bounties </span> and
+            more !
           </p>
         </div>
         <div className="text-zinc-400 text-center my-4 items-center sm:w-4/5 md:w-4/5 lg:w-2/5">
-          Create Tasks, Bounties & organize them the way you want. Classify the
-          gigs using tags, status, card type, applications, deadline and much
-          more.
+          Create Tasks, Bounties & organize them the way you want. Manage your
+          projects and bounties all in one place to increase visibility among
+          your DAO contributors.
         </div>
         <SpectCard>
           <div className="text-2xl mb-10">
