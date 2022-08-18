@@ -24,7 +24,7 @@ export default function Integrations() {
             Integrate like a <span>Pro</span>
           </p>
         </div>
-        <div className="text-zinc-400 text-center items-center w-[70%]">
+        <div className="text-zinc-400 text-center items-center w-[80%]">
           Pay out contributors using Gnosis Safe. Track your code via GitHub.
           Seamlessly integrate with Discord to enhance communication, fetch roles & much more.
         </div>

@@ -82,7 +82,7 @@ export default function Features() {
                   </svg>
                 )}
                 <p className="text-xl text-zinc-300">{feature.title}</p>
-                <p className="text-zinc-600">{feature.content}</p>
+                <p className="text-zinc-500">{feature.content}</p>
               </Card>
             </div>
           );

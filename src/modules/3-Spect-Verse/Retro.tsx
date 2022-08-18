@@ -7,7 +7,7 @@ export default function Retro() {
         <div className="flex flex-row mb-16">
           <p className="text-4xl font-semibold">Retro it</p>
         </div>
-        <div className="text-zinc-400 text-center items-center w-[70%]">
+        <div className="text-zinc-400 text-center items-center w-[80%]">
           Reward contributors retroactively to incentivize great work on any EVM
           chain with any token. You can even plug in your native DAO token!
         </div>

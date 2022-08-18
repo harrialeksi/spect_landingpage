@@ -28,7 +28,7 @@ export default function Customize() {
             </p>
           </p>
         </div>
-        <div className="text-zinc-400 text-center items-center mb-10 w-[70%]">
+        <div className="text-zinc-400 text-center items-center mb-10 w-[80%]">
           Spect offers huge customizability in terms of task workflows,
           payments, roles and automations.
         </div>

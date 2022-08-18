@@ -7,7 +7,7 @@ export default function Automation() {
         <div className="flex flex-row mb-8 text-center">
           <p className="text-4xl font-semibold">Automate the flow</p>
         </div>
-        <div className="text-zinc-400 text-center items-center w-[70%]">
+        <div className="text-zinc-400 text-center items-center w-[80%]">
           Dont spend a single minute doing repititive tasks.
         </div>
         <div>
