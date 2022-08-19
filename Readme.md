@@ -1,5 +1,7 @@
 # Landing Page for Spect Network
 
+https://spect.network
+
 ## Setup
 
 ```
