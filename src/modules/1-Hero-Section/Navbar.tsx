@@ -6,7 +6,7 @@ export default function Navbar() {
         <p className="font-semibold text-xl">Spect Network</p>
       </div>
       <div className="flex flex-row items-center gap-2 sm:hidden md:hidden lg:mr-36">
-        <a href="https://docs.spect.network/spect-docs/introduction/master">
+        <a href="https://docs.spect.network/spect-docs/introduction/how-it-works">
           <button className="px-8 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">Docs</button>
         </a>
         <a href="https://circles.spect.network/">
