@@ -16,7 +16,7 @@ export default function Footer() {
           next level?
         </h1>
         <div className="mb-12 flex flex-row gap-6">
-          <a href="https://docs.spect.network/spect-docs/introduction/master">
+          <a href="https://docs.spect.network/spect-docs/introduction/how-it-works">
             <button
               className="
               px-8
