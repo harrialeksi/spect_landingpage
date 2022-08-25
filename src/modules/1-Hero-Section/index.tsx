@@ -40,7 +40,7 @@ function HeroSection() {
           </h2>
         </div>
 
-        <div className="mb-12 flex flex-row gap-6">
+        <div className="mb-12 flex flex-row gap-6 z-20">
           <a href="https://www.youtube.com/playlist?list=PLdwhfxtIkROmkPUhWwFzwp61ollQf_R44">
             <button
               className="
