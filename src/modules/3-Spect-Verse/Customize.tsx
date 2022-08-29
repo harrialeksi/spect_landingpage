@@ -19,13 +19,10 @@ export default function Customize() {
   return (
     <>
       <Container>
-        <div className="flex flex-row mb-8 text-center">
-          <p className="text-4xl font-semibold leading-normal">
-            Customize
-            <br />
-            <p className="text-2xl text-zinc-500 text-center">
-              Every. Damn. Thing.
-            </p>
+        <div className="flex flex-col mb-8 text-center">
+          <p className="text-4xl font-semibold leading-normal">Customize</p>
+          <p className="text-2xl text-zinc-500 text-center">
+            Every. Damn. Thing.
           </p>
         </div>
         <div className="text-zinc-400 text-center items-center mb-10 w-[80%]">

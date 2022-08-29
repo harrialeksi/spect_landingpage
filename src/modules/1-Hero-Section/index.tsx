@@ -25,9 +25,9 @@ function HeroSection() {
   return (
     <div className="h-full relative">
       <Navbar />
-      <VioletBlur className="absolute top-0 left-0 blur-xl z-10" />
-      <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50 z-10" />
-      <PinkBlur className="absolute bottom-36 left-72 h-24 w-24 z-10" />
+      <VioletBlur className="absolute top-0 left-0 blur-xl" />
+      <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
+      <PinkBlur className="absolute bottom-36 left-72 h-24 w-24" />
       <div className="lg:mt-24 md:mt-12 sm:mt-12 flex flex-col text-center items-center z-20">
         <div className="flex flex-col mx-auto py-4 mb-10 ">
           <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-6xl md:text-5xl sm:text-5xl font-bold z-30">
