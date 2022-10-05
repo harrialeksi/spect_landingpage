@@ -75,6 +75,9 @@ export default function Footer() {
         <a href="https://snapshot.org/#/spect.eth">
           <p className="hover:text-purple">Snapshot</p>
         </a>
+        <a href="https://www.youtube.com/channel/UCUXOC62aiZqT_ijL-dz379Q">
+          <p className="hover:text-purple">Youtube</p>
+        </a>
       </div>
       <div>
         <img src="/footer.svg" className="h-16" />

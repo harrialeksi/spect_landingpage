@@ -1,4 +1,4 @@
-# Landing Page for Spect Network
+# Landing Page for Spect
 
 https://spect.network
 
