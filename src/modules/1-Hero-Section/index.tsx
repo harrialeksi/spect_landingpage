@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import styled from "styled-components";
 
-const GradientWord = styled.span`
+export const GradientWord = styled.span`
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

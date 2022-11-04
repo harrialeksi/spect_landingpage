@@ -9,11 +9,11 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex flex-row items-center gap-2 sm:hidden md:hidden lg:mr-36">
-        <Link to={"/features"}>
+        {/* <Link to={"/features"}>
           <button className="px-6 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
             Features
           </button>
-        </Link>
+        </Link> */}
         <Link to={"/pricing"}>
           <button className="px-6 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
             Pricing
