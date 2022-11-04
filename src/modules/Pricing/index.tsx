@@ -1,32 +1,31 @@
 import { CheckOutlined } from "@ant-design/icons";
 import { PinkBlur, VioletBlur, GradientWord } from "../1-Hero-Section";
-import Navbar from "../1-Hero-Section/Navbar";
 
 const featuresArray = [
-  "Unlimited Sorms, Workspaces, Projects",
+  "Unlimited Forms, Workstreams, Projects",
   "Tasks, Bounties & Grant Management",
-  "N-level deep workspaces",
+  "N-level deep workstreams",
   "Gasless transactions on Polygon",
-  "Sybil Resistant Forms",
+  "Sybil Resistant Credential curated Forms",
   "Gasless On-chain Credentialing",
   "One click Token Gating",
-  "Role based Marketplace with granular permissioning",
-  "Questbook, Gnosis, Discord & GitHub Integrations",
+  "Granular permissioning for roles",
+  "Guild, Gnosis, Discord & GitHub Integrations",
   "Import public boards from Trello",
   "Import custom token from any EVM Chain",
-  "Pay contributors on any chain",
+  "Pay contributors on any EVM chain",
+  "Paying contributors using Retro",
 ];
 
 export default function Pricing() {
   return (
     <div className="h-full relative">
-      <Navbar />
       <VioletBlur className="absolute top-0 left-0 blur-xl" />
       <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
       <PinkBlur className="absolute bottom-36 left-72 h-24 w-24" />
       <div className="flex flex-col text-center items-center z-20">
         <p className="px-4 py-1 rounded-xl text-sm text-purple text-bold bg-purple bg-opacity-5 hover:bg-opacity-25 duration-700 mb-2">
-          Recommended
+          Public Beta
         </p>
         <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo rounded-xl h-full p-8">
           <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-4xl md:text-3xl sm:text-3xl font-bold z-40 p-2">

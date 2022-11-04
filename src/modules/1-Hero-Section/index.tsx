@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
 import styled from "styled-components";
+
 
 export const GradientWord = styled.span`
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);
@@ -22,9 +22,9 @@ export const VioletBlur = styled.div`
 `;
 
 function HeroSection() {
+
   return (
     <div className="h-full relative">
-      <Navbar />
       <VioletBlur className="absolute top-0 left-0 blur-xl" />
       <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
       <PinkBlur className="absolute bottom-36 left-72 h-24 w-24" />

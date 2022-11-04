@@ -1,37 +1,22 @@
-import HeroSection from "./modules/1-Hero-Section";
-import About from "./modules/2-About-Spect";
-import SpectVerse from "./modules/3-Spect-Verse";
-import Features from "./modules/4-Features";
-import Footer from "./modules/Footer";
-import Pricing from "./modules/Pricing";
+import HomePage from "./pages/Home";
+import PricingPage from "./pages/Pricing";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+import { Navbar, MobileNavbar } from "./modules/1-Hero-Section/Navbar";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <Router>
       <div className="flex flex-col bg-black text-white w-full font-default">
+        {menuOpen ? (
+          <MobileNavbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        ) : (
+          <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        )}
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <HeroSection />
-                <About />
-                <SpectVerse />
-                <Features />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="/pricing"
-            element={
-              <>
-                <Pricing />
-                <Footer />
-              </>
-            }
-          />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/pricing" element={<PricingPage />} />
         </Routes>
       </div>
     </Router>
