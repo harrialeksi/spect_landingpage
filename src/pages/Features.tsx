@@ -1,3 +1,5 @@
+import Features from "../modules/Features";
+
 export default function FeaturesPage() {
-  return null;
+  return <Features />;
 }

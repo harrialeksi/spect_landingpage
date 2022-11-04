@@ -1,5 +1,5 @@
 import { CheckOutlined } from "@ant-design/icons";
-import { PinkBlur, VioletBlur, GradientWord } from "../1-Hero-Section";
+import { PinkBlur, VioletBlur, GradientWord } from "../Home/1-Hero-Section";
 
 const featuresArray = [
   "Unlimited Forms, Workstreams, Projects",
@@ -44,7 +44,9 @@ export default function Pricing() {
               return (
                 <div key={feature} className="flex flex-row gap-3 items-center">
                   <CheckOutlined style={{ color: "#BF5AF2" }} />
-                  <p className="text-zinc-400 hover:text-white duration-700">{feature}</p>
+                  <p className="text-zinc-400 hover:text-white duration-700">
+                    {feature}
+                  </p>
                 </div>
               );
             })}

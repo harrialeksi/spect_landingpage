@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { VioletBlur, PinkBlur } from "../1-Hero-Section";
+import { VioletBlur, PinkBlur } from "../Home/1-Hero-Section";
 
 const GradientWord = styled.span`
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);

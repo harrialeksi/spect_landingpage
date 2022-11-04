@@ -22,11 +22,11 @@ export function Navbar({ menuOpen, setMenuOpen }: Props) {
         <MenuOutlined />
       </button>
       <div className="flex flex-row items-center gap-2 sm:hidden md:hidden lg:mr-36">
-        {/* <Link to={"/features"}>
+        <Link to={"/features"}>
           <button className="px-6 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
             Features
           </button>
-        </Link> */}
+        </Link>
         <Link to={"/pricing"}>
           <button className="px-6 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
             Pricing
@@ -90,6 +90,16 @@ export function MobileNavbar({ setMenuOpen }: MobileProps) {
             className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700"
           >
             Pricing
+          </button>
+        </Link>
+        <Link to={"/features"}>
+          <button
+            onClick={() => {
+              setMenuOpen(false);
+            }}
+            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700"
+          >
+            Features
           </button>
         </Link>
         <a href="https://docs.spect.network/spect-docs/introduction/how-it-works">
