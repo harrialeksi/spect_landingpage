@@ -1,5 +1,6 @@
 import { CloseCircleOutlined, MenuOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 
 interface Props {
   menuOpen: boolean;
@@ -46,10 +47,32 @@ export function Navbar({ menuOpen, setMenuOpen }: Props) {
   );
 }
 
-export function MobileNavbar({ menuOpen, setMenuOpen }: Props) {
-  
+interface MobileProps {
+  setMenuOpen: (menuOpen: boolean) => void;
+}
+
+export function MobileNavbar({ setMenuOpen }: MobileProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    function handleClickOutside(event: any) {
+      if (
+        true &&
+        inputRef.current &&
+        !inputRef.current.contains(event.target)
+      ) {
+        setMenuOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [inputRef, setMenuOpen]);
   return (
-    <div className="w-full h-full bg-gradientTwo z-40 duration-700">
+    <div
+      className="w-full h-full bg-gradientTwo z-40 duration-700"
+      ref={inputRef}
+    >
       <div className="mt-8 mx-auto flex flex-col p-8 gap-8">
         <button
           onClick={() => {
@@ -60,19 +83,24 @@ export function MobileNavbar({ menuOpen, setMenuOpen }: Props) {
           <CloseCircleOutlined style={{ fontSize: "2rem" }} />
         </button>
         <Link to={"/pricing"}>
-          <p className="p-6 rounded-xl text-xl text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
+          <button
+            onClick={() => {
+              setMenuOpen(false);
+            }}
+            className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700"
+          >
             Pricing
-          </p>
+          </button>
         </Link>
         <a href="https://docs.spect.network/spect-docs/introduction/how-it-works">
-          <p className="p-6 rounded-xl text-xl text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
+          <button className="p-6 rounded-xl w-full text-xl text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
             Docs
-          </p>
+          </button>
         </a>
         <a href="https://circles.spect.network/">
-          <p className="p-6 rounded-xl text-xl text-purple text-bold hover:bg-purple hover:bg-opacity-5 duration-700">
+          <button className="p-6 rounded-xl w-full text-xl text-purple text-bold hover:bg-purple hover:bg-opacity-5 duration-700">
             Launch App
-          </p>
+          </button>
         </a>
       </div>
     </div>
