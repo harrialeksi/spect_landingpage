@@ -1,6 +1,6 @@
 import HomePage from "./pages/Home";
 import PricingPage from "./pages/Pricing";
-import FeaturesPage from "./pages/Features";
+import FeaturesPage from "./pages/Features/Features";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { Navbar, MobileNavbar } from "./modules/Navbar";
