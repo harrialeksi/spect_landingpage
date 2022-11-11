@@ -60,7 +60,7 @@ export function Sorms() {
       <div className="grid grid-cols-4 gap-4 p-12">
         <VioletBlur className="absolute top-0 left-0 blur-xl" />
         <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
-        <div className="lg:col-span-2 md:col-span-4 sm:col-span-4 p-4 my-6">
+        <div className="lg:col-span-2 md:col-span-4 sm:col-span-4 p-4 my-6 lg:ml-24">
           <p className="text-2xl lg:text-left sm:text-center md:text-center text-zinc-500  sm:mt-8 md:mt-8 lg:mt-12 lg:w-4/5">
             Introducing
           </p>
