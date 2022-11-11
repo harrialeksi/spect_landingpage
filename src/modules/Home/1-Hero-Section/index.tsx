@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const GradientWord = styled.span`
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);
   -webkit-text-fill-color: transparent;
@@ -22,7 +21,6 @@ export const VioletBlur = styled.div`
 `;
 
 function HeroSection() {
-
   return (
     <div className="h-full relative">
       <VioletBlur className="absolute top-0 left-0 blur-xl" />
@@ -35,8 +33,8 @@ function HeroSection() {
             world
           </h1>
           <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
-            Spect is a highly customizable tool for modular DAOs to operate,
-            scale and achieve beautiful things.
+            Spect helps DAO contributors form circles that manage grants,
+            bounties and onboarding.
           </h2>
         </div>
 
