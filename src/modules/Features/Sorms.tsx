@@ -60,11 +60,11 @@ export function Sorms() {
       <div className="grid grid-cols-4 gap-4 p-12">
         <VioletBlur className="absolute top-0 left-0 blur-xl" />
         <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
-        <div className="lg:col-span-2 md:col-span-3 sm:col-span-3 p-4 my-6 ml-24">
+        <div className="lg:col-span-2 md:col-span-4 sm:col-span-4 p-4 my-6">
           <p className="text-2xl lg:text-left sm:text-center md:text-center text-zinc-500  sm:mt-8 md:mt-8 lg:mt-12 lg:w-4/5">
             Introducing
           </p>
-          <GradientWord className="text-8xl font-bold my-4">Sorms</GradientWord>
+          <GradientWord className="lg:text-8xl md:text-5xl sm:text-5xl sm:text-center md:text-center lg:text-left font-bold my-4">Sorms</GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
             The first Sybil protected, credential curated form built to empower
             you to run successful onboarding programs, grants programs, surveys
@@ -107,17 +107,17 @@ export function Sorms() {
             </a>
           </div>
         </div>
-        <div className="lg:col-span-2 md:hidden sm:hidden ml-48 ">
-          <img src="/sorms-mobile.svg" className="h-[36rem]" />
+        <div className="lg:col-span-2 md:col-span-4 sm:col-span-4 z-20">
+          <img src="/sorms-mobile.svg" className="lg:h-[36rem] md:h-[22rem] sm:h-[22rem]" />
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-4 mx-96">
+      <div className="grid grid-cols-4 gap-4 lg:mx-96 sm:mx-6 md:mx-6">
         {features.map((feat) => (
           <Card
             onClick={() => {
               window.open(feat.link);
             }}
-            className="col-span-2 rounded-xl hover:-translate-y-3 duration-700 text-center items-center"
+            className="lg:col-span-2 sm:col-span-4 md:col-span-4 rounded-xl hover:-translate-y-3 duration-700 text-center items-center"
           >
             <div className="text-purple p-2">
               {feat.icon == "Gitcoin" && (
