@@ -40,7 +40,7 @@ export default function Features() {
               className="lg:col-span-1 md:col-span-3 sm:col-span-3 p-8 lg:mx-2"
               key={feature.title}
             >
-              <Card className="w-full bg-gradientTwo rounded-2xl p-8 flex flex-col gap-4 items-center text-center">
+              <Card className="w-full bg-gradientTwo rounded-2xl p-8 flex flex-col gap-4 content-center text-center">
                 {feature.icon == "ApartmentOutlined" && (
                   <ApartmentOutlined
                     style={{ fontSize: "2.5rem" }}

@@ -5,13 +5,13 @@ import { SiHandshake } from "react-icons/si";
 import { GiDiamondTrophy } from "react-icons/gi";
 import { MdSecurity } from "react-icons/md";
 
-const GradientWord = styled.h1`
+export const GradientWord = styled.h1`
   background: linear-gradient(180deg, #4200ff 0%, #ffffff 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 `;
 
-const Card = styled.div`
+export const Card = styled.div`
   box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.4);
   &:hover {
     box-shadow: 0px 1px 15px rgb(0, 0, 0, 0.7);
@@ -61,7 +61,7 @@ export function Sorms() {
         <VioletBlur className="absolute top-0 left-0 blur-xl" />
         <PinkBlur className="absolute right-0 bottom-48 h-1/6 w-1/6 opacity-50" />
         <div className="lg:col-span-2 md:col-span-3 sm:col-span-3 p-4 my-6 ml-24">
-          <p className="text-2xl lg:text-left sm:text-center md:text-center text-zinc-500  sm:mt-8 md:mt-8 lg:mt-8 lg:w-4/5">
+          <p className="text-2xl lg:text-left sm:text-center md:text-center text-zinc-500  sm:mt-8 md:mt-8 lg:mt-12 lg:w-4/5">
             Introducing
           </p>
           <GradientWord className="text-8xl font-bold my-4">Sorms</GradientWord>
@@ -70,7 +70,7 @@ export function Sorms() {
             you to run successful onboarding programs, grants programs, surveys
             and so much more!
           </p>
-          <div className="my-5 flex flex-row gap-4">
+          <div className="my-8 flex flex-row gap-4">
             <a href="https://docs.spect.network/spect-docs/features/sorms/wtf-is-a-sorm">
               <button
                 className="
@@ -106,11 +106,6 @@ export function Sorms() {
               </button>
             </a>
           </div>
-          <div>
-            <Card className="rounded-xl duration-700">
-              Fill out our member discovery form here
-            </Card>
-          </div>
         </div>
         <div className="lg:col-span-2 md:hidden sm:hidden ml-48 ">
           <img src="/sorms-mobile.svg" className="h-[36rem]" />
@@ -122,47 +117,49 @@ export function Sorms() {
             onClick={() => {
               window.open(feat.link);
             }}
-            className="col-span-2 rounded-xl hover:-translate-y-3 duration-700"
+            className="col-span-2 rounded-xl hover:-translate-y-3 duration-700 text-center items-center"
           >
-            <div className="flex flex-row items-center gap-3">
-              <div className="text-purple">
-                {feat.icon == "Gitcoin" && (
-                  <MdSecurity
-                    style={{
-                      height: "1.5rem",
-                      width: "1.5rem",
-                    }}
-                  />
-                )}
-                {feat.icon == "Token" && (
-                  <FaEthereum
-                    style={{
-                      height: "1.5rem",
-                      width: "1.5rem",
-                    }}
-                  />
-                )}
-                {feat.icon == "Creds" && (
-                  <SiHandshake
-                    style={{
-                      height: "1.5rem",
-                      width: "1.5rem",
-                    }}
-                  />
-                )}
-                {feat.icon == "Kudos" && (
-                  <GiDiamondTrophy
-                    style={{
-                      height: "1.5rem",
-                      width: "1.5rem",
-                    }}
-                  />
-                )}
-              </div>
-              <h2 className="text-2xl text-zinc-200 leading-normal">
-                {feat.title}
-              </h2>
+            <div className="text-purple p-2">
+              {feat.icon == "Gitcoin" && (
+                <MdSecurity
+                  style={{
+                    height: "2.5rem",
+                    width: "2.5rem",
+                    margin: "0px auto",
+                  }}
+                />
+              )}
+              {feat.icon == "Token" && (
+                <FaEthereum
+                  style={{
+                    height: "2.5rem",
+                    width: "2.5rem",
+                    margin: "0px auto",
+                  }}
+                />
+              )}
+              {feat.icon == "Creds" && (
+                <SiHandshake
+                  style={{
+                    height: "2.5rem",
+                    width: "2.5rem",
+                    margin: "0px auto",
+                  }}
+                />
+              )}
+              {feat.icon == "Kudos" && (
+                <GiDiamondTrophy
+                  style={{
+                    height: "2.5rem",
+                    width: "2.5rem",
+                    margin: "0px auto",
+                  }}
+                />
+              )}
             </div>
+            <h2 className="text-2xl text-zinc-200 mt-4 leading-normal">
+              {feat.title}
+            </h2>
             <div className="text-sm text-zinc-400 py-2">{feat.content}</div>
           </Card>
         ))}

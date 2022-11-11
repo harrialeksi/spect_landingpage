@@ -25,14 +25,15 @@ export default function Integrations() {
           </p>
         </div>
         <div className="text-zinc-400 text-center items-center w-[80%]">
-          Pay out contributors using Gnosis Safe. Track your code via GitHub.
+          Pay out contributors using Gnosis Safe. Track your code via GitHub. Token gate your workspace via Guild.
           Seamlessly integrate with Discord to enhance communication, fetch roles & much more.
         </div>
         <div className="mt-12 flex flex-col items-center gap-5">
-          <div className="flex flex-col gap-8 justify-between items-center">
+          <div className="flex flex-col gap-4 justify-between items-center">
             <img src="/github.svg" className="h-16" />
             <img src="/discord.svg" className="h-16" />
             <img src="/gnosis.svg" className="h-8" />
+            <img src="/guild.svg" className="h-12" />
           </div>
         </div>
       </Container>
@@ -42,6 +43,5 @@ export default function Integrations() {
 
 {
   /* <img src="/coordinape.svg" className="h-8" />
-      <img src="/guild.svg" className="h-12" />
       <img src="/orca.svg" className="h-32" /> */
 }
