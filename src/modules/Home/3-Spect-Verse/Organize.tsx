@@ -110,7 +110,7 @@ export default function Organize() {
           <p className="text-2xl font-semibold text-zinc-400 leading-normal text-center">
             Trusted By
           </p>
-          <div className="flex flex-row gap-16 mx-auto items-center mt-8">
+          <div className="flex lg:flex-row md:flex-col sm:flex-col gap-16 mx-auto items-center mt-8">
             <img
               src="/krebit-icon.png"
               className="h-12 cursor-pointer"

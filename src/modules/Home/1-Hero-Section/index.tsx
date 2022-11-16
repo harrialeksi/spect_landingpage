@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Typewriter from "typewriter-effect";
 
 export const GradientWord = styled.span`
   background: linear-gradient(360deg, #ff008a -16.67%, #4200ff 100%);
@@ -33,8 +34,16 @@ function HeroSection() {
             world
           </h1>
           <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
-            Spect helps DAO contributors form circles that manage grants,
-            bounties and onboarding.
+            <Typewriter
+              options={{
+                strings: [
+                  "Spect helps DAO contributors form circles that manage grants, bounties and onboarding",
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+              }}
+            />
           </h2>
         </div>
 

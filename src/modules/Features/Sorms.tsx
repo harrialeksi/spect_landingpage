@@ -64,11 +64,14 @@ export function Sorms() {
           <p className="text-2xl lg:text-left sm:text-center md:text-center text-zinc-500  sm:mt-8 md:mt-8 lg:mt-12 lg:w-4/5">
             Introducing
           </p>
-          <GradientWord className="lg:text-8xl md:text-5xl sm:text-5xl sm:text-center md:text-center lg:text-left font-bold my-4">Sorms</GradientWord>
+          <GradientWord className="lg:text-8xl md:text-5xl sm:text-5xl sm:text-center md:text-center lg:text-left font-bold my-4">
+            Sorms
+          </GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
-            The first Sybil protected, credential curated form built to empower
-            you to run successful onboarding programs, grants programs, surveys
-            and so much more!
+            The first Sybil protected, credential curated{" "}
+            <span className="text-white">Web3 enabled Form</span> built to
+            empower you to run successful onboarding programs, grants programs,
+            surveys and so much more!
           </p>
           <div className="my-8 flex flex-row gap-4">
             <a href="https://docs.spect.network/spect-docs/features/sorms/wtf-is-a-sorm">
@@ -108,7 +111,10 @@ export function Sorms() {
           </div>
         </div>
         <div className="lg:col-span-2 md:col-span-4 sm:col-span-4 z-20">
-          <img src="/sorms-mobile.svg" className="lg:h-[36rem] md:h-[22rem] sm:h-[22rem]" />
+          <img
+            src="/sorms-mobile.svg"
+            className="lg:h-[36rem] md:h-[22rem] sm:h-[22rem]"
+          />
         </div>
       </div>
       <div className="grid grid-cols-4 gap-4 lg:mx-96 sm:mx-6 md:mx-6">
