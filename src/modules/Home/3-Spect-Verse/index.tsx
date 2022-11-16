@@ -10,7 +10,7 @@ function SpectVerse() {
       <div className="lg:col-span-2 md:col-span-2 sm:col-span-2 bg-gradientTwo rounded-xl">
         <Organize />
       </div>
-      <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo rounded-xl">
+      {/* <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo rounded-xl">
         <Customize />
       </div>
       <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-[#0E0E0E] rounded-xl">
@@ -21,7 +21,7 @@ function SpectVerse() {
       </div>
       <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo rounded-xl">
         <Retro />
-      </div>
+      </div> */}
     </div>
   );
 }

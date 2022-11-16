@@ -40,16 +40,41 @@ const Avatar = styled.img`
 `;
 
 const TaskCard = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 3rem;
-  padding: 3rem 0rem;
-  .gradient-text {
+  padding-top: 3rem;
+  text-align: center;
+  .words {
+    overflow: hidden;
+    height: 7rem;
+  }
+  span {
+    display: block;
+    font-size: 6rem;
+    font-weight: bold;
+    animation: spin_words 6s infinite;
     background: linear-gradient(180deg, #5200ff 0%, #a900ff 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+  }
+  @keyframes spin_words {
+    30% {
+      transform: translateY(-112%);
+    }
+    45% {
+      transform: translateY(-100%);
+    }
+    60% {
+      transform: translateY(-212%);
+    }
+    75% {
+      transform: translateY(-200%);
+    }
+    90% {
+      transform: translateY(-312%);
+    }
+    100% {
+      transform: translateY(-300%);
+    }
   }
 `;
 
@@ -57,18 +82,64 @@ export default function Organize() {
   return (
     <>
       <TaskCard>
-        <div className="flex flex-row mb-8">
-          <p className="text-4xl font-semibold leading-normal text-center">
-            Organize <span className="gradient-text">Tasks, Bounties </span> and
-            more !
-          </p>
+        <div className="grid grid-cols-3">
+          <img
+            src="/crypto1.svg"
+            className="opacity-20 lg:col-span-1 md:hidden sm:hidden w-4/5"
+          />
+          <div className="flex flex-col mb-8 items-center lg:col-span-1 md:col-span-3 sm:col-span-3">
+            <p className="text-4xl font-semibold leading-normal text-center">
+              WTF is Spect ?
+            </p>
+            <p className="text-zinc-400 text-center my-8 items-center sm:w-4/5 md:w-4/5">
+              Spect is a platform for your DAO to create and manage
+            </p>
+            <div className="words">
+              <span>Tasks</span>
+              <span>Sorms</span>
+              <span>Bounties</span>
+              <span>Grants</span>
+            </div>
+          </div>
+          <img
+            src="/crypto2.svg"
+            className="opacity-20 lg:col-span-1 md:hidden sm:hidden w-4/5 ml-8"
+          />
         </div>
-        <div className="text-zinc-400 text-center my-4 items-center sm:w-4/5 md:w-4/5 lg:w-2/5">
+        <div className="flex flex-col">
+          <p className="text-2xl font-semibold text-zinc-400 leading-normal text-center">
+            Trusted By
+          </p>
+          <div className="flex flex-row gap-16 mx-auto items-center mt-8">
+            <img
+              src="/krebit-icon.png"
+              className="h-12 cursor-pointer"
+              onClick={() =>
+                window.open("https://mobile.twitter.com/krebitid", "_blank")
+              }
+            />
+            <img
+              src="/biconomy.svg"
+              className="h-8 cursor-pointer"
+              onClick={() =>
+                window.open("https://mobile.twitter.com/biconomy", "_blank")
+              }
+            />
+            <img
+              src="/alchemix.svg"
+              className="h-12 cursor-pointer"
+              onClick={() =>
+                window.open("https://mobile.twitter.com/AlchemixFi", "_blank")
+              }
+            />
+          </div>
+        </div>
+        {/* <div className="text-zinc-400 text-center my-4 items-center sm:w-4/5 md:w-4/5 lg:w-2/5">
           Create Tasks, Bounties & organize them the way you want. Manage your
           projects and bounties all in one place to increase visibility among
           your DAO contributors.
-        </div>
-        <SpectCard>
+        </div> */}
+        {/* <SpectCard>
           <div className="text-2xl mb-10">
             <Typewriter
               options={{
@@ -101,7 +172,7 @@ export default function Organize() {
               );
             })}
           </div>
-        </SpectCard>
+        </SpectCard> */}
       </TaskCard>
     </>
   );

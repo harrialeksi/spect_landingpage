@@ -1,12 +1,9 @@
 import { FaCoins } from "react-icons/fa";
-import { GrUserSettings } from "react-icons/gr";
+import { IoMdSettings } from "react-icons/io";
 
 import styled from "styled-components";
 import { PinkBlur, VioletBlur } from "../Home/1-Hero-Section";
 import { FaEthereum } from "react-icons/fa";
-import { SiHandshake } from "react-icons/si";
-import { GiDiamondTrophy } from "react-icons/gi";
-import { MdSecurity } from "react-icons/md";
 
 export const GradientWord = styled.h1`
   background: linear-gradient(180deg, #4200ff 0%, #ffffff 100%);
@@ -43,7 +40,7 @@ const features = [
   },
   {
     icon: "Retro",
-    title: "Retro it",
+    title: "Retro it - The Web3 way",
     content:
       "Retro can be used to distribute compensation based on the contributions of individuals in a team over a period of time.",
     link: "https://docs.spect.network/spect-docs/features/workstream/retro",
@@ -119,15 +116,6 @@ export function Workstream() {
           >
             <div className="text-purple p-2">
               {feat.icon == "Pay" && (
-                <MdSecurity
-                  style={{
-                    height: "2.5rem",
-                    width: "2.5rem",
-                    margin: "0px auto",
-                  }}
-                />
-              )}
-              {feat.icon == "Roles" && (
                 <FaEthereum
                   style={{
                     height: "2.5rem",
@@ -136,8 +124,17 @@ export function Workstream() {
                   }}
                 />
               )}
+              {feat.icon == "Roles" && (
+                <IoMdSettings
+                  style={{
+                    height: "2.5rem",
+                    width: "2.5rem",
+                    margin: "0px auto",
+                  }}
+                />
+              )}
               {feat.icon == "Retro" && (
-                <SiHandshake
+                <FaCoins
                   style={{
                     height: "2.5rem",
                     width: "2.5rem",
