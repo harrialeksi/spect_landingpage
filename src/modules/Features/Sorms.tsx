@@ -28,29 +28,29 @@ const features = [
     icon: "Gitcoin",
     title: "Sybil Resistant",
     content:
-      "We’ve integrated Gitcoin Passport for you to create Sybil protected Sorms. And it is fully customizable!",
-    link: "https://docs.spect.network/spect-docs/features/sorms/enable-sybil-resistance",
+      "We’ve integrated Gitcoin Passport for you to create Sybil protected Forms. And it is fully customizable!",
+    link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/enable-sybil-resistance",
   },
   {
     icon: "Token",
     title: "Token Gating",
     content:
-      "Want to target your Sorms to specific role holders within your community? We’ve integrated guild.xyz for you to be able do so",
-    link: "https://docs.spect.network/spect-docs/features/sorms/token-gating",
+      "Want to target your Forms to specific role holders within your community? We’ve integrated guild.xyz for you to be able do so",
+    link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/role-gating",
   },
   {
     icon: "Creds",
     title: "Credential Curation",
     content:
       "Connect with like minded people holding the same credentials as you!",
-    link: "https://docs.spect.network/spect-docs/features/sorms/credential-curation",
+    link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/credential-curation",
   },
   {
     icon: "Kudos",
     title: "Distribute Credentials",
     content:
-      "Using Sorms, you can automatically distribute Kudos via Mintkudos🎉 to responders",
-    link: "https://docs.spect.network/spect-docs/features/sorms/kudos-for-responders",
+      "Using Forms, you can automatically distribute Kudos via Mintkudos🎉 to responders",
+    link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/soulbound-tokens-for-responders",
   },
 ];
 
@@ -65,7 +65,7 @@ export function Sorms() {
             Introducing
           </p>
           <GradientWord className="lg:text-8xl md:text-5xl sm:text-5xl sm:text-center md:text-center lg:text-left font-bold my-4">
-            Sorms
+            Forms
           </GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
             The first Sybil protected, credential curated{" "}
@@ -74,7 +74,7 @@ export function Sorms() {
             surveys and so much more!
           </p>
           <div className="my-8 flex flex-row gap-4">
-            <a href="https://docs.spect.network/spect-docs/features/sorms/wtf-is-a-sorm">
+            <a href="https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form">
               <button
                 className="
               px-8
