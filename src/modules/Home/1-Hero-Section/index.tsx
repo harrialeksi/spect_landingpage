@@ -34,19 +34,10 @@ function HeroSection() {
             world
           </h1>
           <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
-            <Typewriter
-              options={{
-                strings: [
-                  "Spect helps DAO contributors form circles that manage grants, bounties and onboarding",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 50,
-              }}
-            />
+            Spect helps DAO contributors form circles that manage grants,
+            bounties and onboarding
           </h2>
         </div>
-
         <div className="mb-12 flex flex-row gap-6 z-20">
           <a href="https://www.youtube.com/playlist?list=PLdwhfxtIkROmkPUhWwFzwp61ollQf_R44">
             <button
