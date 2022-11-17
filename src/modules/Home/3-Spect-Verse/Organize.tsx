@@ -47,34 +47,8 @@ export default function Organize() {
           className="lg:col-span-1 md:hidden sm:hidden opacity-20"
         />
         <div className="lg:col-span-4 md:col-span-6 sm:col-span-6 flex flex-col mx-auto align-center">
-          <p className="text-2xl font-semibold text-zinc-400 leading-normal text-center">
-            Trusted By
-          </p>
-          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8">
-            <img
-              src="/krebit.svg"
-              className="h-12 cursor-pointer"
-              onClick={() =>
-                window.open("https://mobile.twitter.com/krebitid", "_blank")
-              }
-            />
-            <img
-              src="/biconomy.svg"
-              className="h-8 cursor-pointer"
-              onClick={() =>
-                window.open("https://mobile.twitter.com/biconomy", "_blank")
-              }
-            />
-            <img
-              src="/alchemix.svg"
-              className="h-10 cursor-pointer"
-              onClick={() =>
-                window.open("https://mobile.twitter.com/AlchemixFi", "_blank")
-              }
-            />
-          </div>
-          <p className="text-2xl font-semibold text-zinc-400 leading-normal text-center mt-16">
-            Used by and Partnered with
+          <p className="text-2xl font-semibold text-zinc-400 leading-normal text-center mb-8 mt-4">
+            Used by and Partnered with the best
           </p>
           <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8">
             <img
@@ -99,6 +73,29 @@ export default function Organize() {
             >
               🎉 Mintkudos
             </div>
+          </div>
+          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8">
+            <img
+              src="/krebit.svg"
+              className="h-12 cursor-pointer"
+              onClick={() =>
+                window.open("https://mobile.twitter.com/krebitid", "_blank")
+              }
+            />
+            <img
+              src="/biconomy.svg"
+              className="h-8 cursor-pointer"
+              onClick={() =>
+                window.open("https://mobile.twitter.com/biconomy", "_blank")
+              }
+            />
+            <img
+              src="/alchemix.svg"
+              className="h-10 cursor-pointer"
+              onClick={() =>
+                window.open("https://mobile.twitter.com/AlchemixFi", "_blank")
+              }
+            />
           </div>
         </div>
         <img
