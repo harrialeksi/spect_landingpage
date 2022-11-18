@@ -30,7 +30,8 @@ function HeroSection() {
       <div className="lg:mt-24 md:mt-12 sm:mt-12 flex flex-col text-center items-center z-20">
         <div className="flex flex-col mx-auto py-4 mb-10 ">
           <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-6xl md:text-5xl sm:text-5xl font-bold z-30">
-            Built for <GradientWord>DAOs</GradientWord> <br /> that change the
+            Built for <span style={{ textDecoration: "line-through white" }}><GradientWord>DAOs</GradientWord>
+            </span><GradientWord> Circles</GradientWord> <br /> that change the
             world
           </h1>
           <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
