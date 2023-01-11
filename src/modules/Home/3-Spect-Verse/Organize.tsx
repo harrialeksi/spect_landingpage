@@ -89,13 +89,6 @@ export default function Organize() {
                 window.open("https://mobile.twitter.com/biconomy", "_blank")
               }
             />
-            <img
-              src="/alchemix.svg"
-              className="h-10 cursor-pointer"
-              onClick={() =>
-                window.open("https://mobile.twitter.com/AlchemixFi", "_blank")
-              }
-            />
           </div>
         </div>
         <img

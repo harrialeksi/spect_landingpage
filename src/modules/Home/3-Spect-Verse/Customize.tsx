@@ -33,7 +33,7 @@ export default function Customize() {
           <p className=" text-2xl text-zinc-300 mb-4">Invite</p>
           <div>
             <p className="text-md text-zinc-400">
-              Invite peers to join the circle
+              Invite peers to join the DAO
             </p>
             <p className=" text-xl text-zinc-400 mt-4">Choose Role</p>
             <div className="flex flex-row gap-3 mt-3 flex-wrap">

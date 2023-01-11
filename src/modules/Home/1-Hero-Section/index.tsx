@@ -29,14 +29,16 @@ function HeroSection() {
       <PinkBlur className="absolute bottom-36 left-72 h-24 w-24" />
       <div className="lg:mt-24 md:mt-12 sm:mt-12 flex flex-col text-center items-center z-20">
         <div className="flex flex-col mx-auto py-4 mb-10 ">
-          <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-6xl md:text-5xl sm:text-5xl font-bold z-30">
-            Built for <span style={{ textDecoration: "line-through white" }}><GradientWord>DAOs</GradientWord>
+          <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-5xl md:text-4xl sm:text-4xl font-bold z-30">
+            Create advanced workflows <br /> for your{" "}
+            <GradientWord>DAO</GradientWord> within seconds
+            {/* Built for <span style={{ textDecoration: "line-through white" }}>
             </span><GradientWord> Circles</GradientWord> <br /> that change the
-            world
+            world */}
           </h1>
           <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
-            Spect helps DAO contributors form circles that manage grants,
-            bounties and onboarding
+            Spect helps DAOs run successful grant programs, onboarding and
+            projects.
           </h2>
         </div>
         <div className="mb-12 flex flex-row gap-6 z-20">
