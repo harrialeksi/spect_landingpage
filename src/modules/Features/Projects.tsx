@@ -16,9 +16,9 @@ const features = [
   },
   {
     icon: "Kudos",
-    title: "Mint Kudos for Contributors",
+    title: "Soulbound tokens for Contributors",
     content:
-      "Mint Kudos on successful completion of tasks, bounties or milestones using MintKudos",
+      "Issuing Soulbound tokens on successful completion of tasks, bounties or milestones using MintKudos",
     link: "https://docs.spect.network/spect-docs/features/what-is-a-project/proof-of-work",
   },
   {
