@@ -88,10 +88,10 @@ export function Sorms() {
               hover:text-white
               duration-700"
               >
-                Explore Docs
+                Learn More
               </button>
             </a>
-            <a href="https://youtu.be/szqtTi2uDmU">
+            <a href="https://circles.spect.network/">
               <button
                 className="
               px-8
@@ -105,7 +105,7 @@ export function Sorms() {
               hover:bg-opacity-25
               duration-700"
               >
-                View Demo
+                Try Forms
               </button>
             </a>
           </div>

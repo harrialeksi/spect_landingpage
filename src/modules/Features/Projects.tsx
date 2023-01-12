@@ -70,10 +70,10 @@ export function Projects() {
               hover:text-white
               duration-700"
               >
-                Explore Docs
+                Learn More
               </button>
             </a>
-            <a href="https://youtu.be/XLr7NA7z4ZY">
+            <a href="https://circles.spect.network/">
               <button
                 className="
               px-8
@@ -87,7 +87,7 @@ export function Projects() {
               hover:bg-opacity-25
               duration-700"
               >
-                View Demo
+                Try Projects
               </button>
             </a>
           </div>
