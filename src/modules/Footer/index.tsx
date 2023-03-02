@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { VioletBlur, PinkBlur } from "../Home/1-Hero-Section";
 
@@ -93,9 +94,9 @@ export default function Footer() {
       <div>
         <img src="/footer.svg" className="h-16" />
       </div>
-      <a href="/terms-of-use">
+      <Link to={"/terms-of-use"}>
         <p className="hover:text-purple">Terms of Use</p>
-      </a>
+      </Link>
     </div>
   );
 }
