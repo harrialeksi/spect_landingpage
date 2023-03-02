@@ -35,7 +35,7 @@ const features = [
     icon: "Token",
     title: "Token Gating",
     content:
-      "Want to target your Forms to specific role holders within your community? We’ve integrated guild.xyz for you to be able do so",
+      "Want to target your Forms to specific role holders within your community? We’ve integrated guild.xyz for you to be able to do so",
     link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/role-gating",
   },
   {
