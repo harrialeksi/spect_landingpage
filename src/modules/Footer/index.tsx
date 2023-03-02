@@ -68,19 +68,34 @@ export default function Footer() {
         <a href="https://mirror.xyz/chaks.eth/us5rOm1jSsvmvqBOmef_SZSP6zzbNeo7ay-_DkacC64">
           <p className="hover:text-purple">Mirror</p>
         </a>
-        <a href="https://gitcoin.co/grants/4201/spect-network-tribes">
+        <a
+          href="https://gitcoin.co/grants/4201/spect-network-tribes"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <p className="hover:text-purple">Gitcoin</p>
         </a>
-        <a href="https://snapshot.org/#/spect.eth">
+        <a
+          href="https://snapshot.org/#/spect.eth"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <p className="hover:text-purple">Snapshot</p>
         </a>
-        <a href="https://www.youtube.com/@spect.network/">
+        <a
+          href="https://www.youtube.com/@spect.network/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <p className="hover:text-purple">Youtube</p>
         </a>
       </div>
       <div>
         <img src="/footer.svg" className="h-16" />
       </div>
+      <a href="/terms-of-use">
+        <p className="hover:text-purple">Terms of Use</p>
+      </a>
     </div>
   );
 }
